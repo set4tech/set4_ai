@@ -17,8 +17,8 @@ const hedvigLettersSerif = Hedvig_Letters_Serif({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://set4.ai'),
-  title: 'Set4 AI - Read your floorplans. With AI.',
-  description: 'AI-powered floorplan analysis for architects, developers, and building departments. Extract, measure, and analyze architectural drawings automatically.',
+  title: 'Read your floorplans. With AI.',
+  description: 'The world\'s fast API to extract geometries, dimensions and quantities from floorplans.',
   keywords: ['AI floorplan analysis', 'architectural drawing analysis', 'building code compliance', 'plan review automation', 'construction AI'],
   authors: [{ name: 'Set4 AI' }],
   creator: 'Set4 AI',
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://set4.ai',
-    siteName: 'Set4 AI',
-    title: 'Set4 AI - Read your floorplans. With AI.',
-    description: 'AI-powered floorplan analysis for architects, developers, and building departments. Extract, measure, and analyze architectural drawings automatically.',
+    siteName: 'set4.ai',
+    title: 'Read your floorplans. With AI.',
+    description: 'The world\'s fast API to extract geometries, dimensions and quantities from floorplans.',
     images: [
       {
         url: '/icon.png',
@@ -41,8 +41,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Set4 AI - Read your floorplans. With AI.',
-    description: 'AI-powered floorplan analysis for architects, developers, and building departments.',
+    title: 'Read your floorplans. With AI.',
+    description: 'The world\'s fast API to extract geometries, dimensions and quantities from floorplans.',
     images: ['/icon.png'],
   },
   icons: {
