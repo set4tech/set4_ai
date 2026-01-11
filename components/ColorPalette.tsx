@@ -4,29 +4,29 @@ const ColorPalette = () => {
   const colors = [
     {
       name: 'Light Background',
-      hex: '#F6FBF3',
-      rgb: 'RGB(246, 251, 243)',
+      hex: '#FFFFFF',
+      rgb: 'RGB(255, 255, 255)',
       className: 'bg-background',
       textClass: 'text-foreground'
     },
     {
-      name: 'Dark Green Text',
-      hex: '#003B1B',
-      rgb: 'RGB(0, 59, 27)',
-      className: 'bg-tertiary',
-      textClass: 'text-tertiary-foreground'
+      name: 'Dark Purple',
+      hex: '#07003b',
+      rgb: 'RGB(7, 0, 59)',
+      className: 'bg-[#07003b]',
+      textClass: 'text-white'
     },
     {
-      name: 'Medium Dark Green',
-      hex: '#299655',
-      rgb: 'RGB(41, 150, 85)',
+      name: 'Bright Purple',
+      hex: '#4400cc',
+      rgb: 'RGB(68, 0, 204)',
       className: 'bg-primary',
       textClass: 'text-primary-foreground'
     },
     {
-      name: 'Accent Green',
-      hex: '#299655',
-      rgb: 'RGB(41, 150, 85)',
+      name: 'Accent Purple',
+      hex: '#4400cc',
+      rgb: 'RGB(68, 0, 204)',
       className: 'bg-accent',
       textClass: 'text-accent-foreground'
     }

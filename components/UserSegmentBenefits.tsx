@@ -54,7 +54,7 @@ export default function UserSegmentBenefits() {
         <button
           className={`bg-card rounded-3xl p-8 text-left transition-all duration-200 ease-out ${
             activePersona === 'developer'
-              ? 'shadow-[0_8px_30px_rgba(0,59,27,0.12)] -translate-y-1 scale-[1.02]'
+              ? 'shadow-[0_8px_30px_rgba(7,0,59,0.12)] -translate-y-1 scale-[1.02]'
               : 'hover:shadow-[0_4px_20px_rgba(0,0,0,0.05)] hover:-translate-y-0.5'
           }`}
           onClick={() => setActivePersona('developer')}
@@ -71,7 +71,7 @@ export default function UserSegmentBenefits() {
         <button
           className={`bg-card rounded-3xl p-8 text-left transition-all duration-200 ease-out ${
             activePersona === 'owner'
-              ? 'shadow-[0_8px_30px_rgba(0,59,27,0.12)] -translate-y-1 scale-[1.02]'
+              ? 'shadow-[0_8px_30px_rgba(7,0,59,0.12)] -translate-y-1 scale-[1.02]'
               : 'hover:shadow-[0_4px_20px_rgba(0,0,0,0.05)] hover:-translate-y-0.5'
           }`}
           onClick={() => setActivePersona('owner')}
