@@ -1,0 +1,188 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Brand Colors - Exact from Identity Guide */
+    --background: 0 0% 100%; /* Pure white background */
+    --foreground: 0 0% 0%; /* Black text */
+
+    /* Card styling - clean white */
+    --card: 0 0% 100%; /* Pure white for cards */
+    --card-foreground: 150 100% 12%;
+
+    /* Popover */
+    --popover: 0 0% 100%;
+    --popover-foreground: 150 100% 12%;
+
+    /* Primary Green - #299655 */
+    --primary: 145 57% 37%; /* #299655 - Tertiary Green */
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary Green - #BBE835 */
+    --secondary: 71 77% 56%; /* #BBE835 - Secondary Green */
+    --secondary-foreground: 150 100% 12%;
+
+    /* Tertiary Green - #299655 */
+    --tertiary: 145 57% 37%; /* #299655 - Tertiary Green */
+    --tertiary-foreground: 0 0% 100%;
+
+    /* Accent - using Primary Green */
+    --accent: 162 100% 40%; /* #00CC88 */
+    --accent-foreground: 0 0% 100%;
+
+    /* Highlight Orange - #ED6506 */
+    --highlight: 24 96% 48%; /* #ED6506 - Highlight Orange */
+    --highlight-foreground: 0 0% 100%;
+
+    /* Muted - subtle variations */
+    --muted: 132 55% 95%;
+    --muted-foreground: 150 50% 30%;
+
+    /* Destructive - using highlight orange */
+    --destructive: 24 96% 48%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders - minimal, subtle */
+    --border: 132 30% 90%;
+    --input: 132 30% 90%;
+    --ring: 162 100% 40%; /* Primary Green for focus */
+
+    --radius: 0.75rem; /* Increased for modern SaaS feel */
+  }
+
+  .dark {
+    /* Keep dark mode as fallback - inverted scheme */
+    --background: 150 100% 12%; /* #003B1B - dark green */
+    --foreground: 132 50% 97%; /* #F6FBF3 - light text */
+    --card: 150 80% 15%;
+    --card-foreground: 132 50% 97%;
+    --popover: 150 80% 15%;
+    --popover-foreground: 132 50% 97%;
+    --primary: 145 60% 35%; /* #299655 */
+    --primary-foreground: 120 100% 99%;
+    --secondary: 150 70% 18%;
+    --secondary-foreground: 132 50% 97%;
+    --tertiary: 145 60% 35%;
+    --tertiary-foreground: 150 100% 12%;
+    --accent: 145 60% 35%;
+    --accent-foreground: 120 100% 99%;
+    --muted: 150 60% 20%;
+    --muted-foreground: 132 40% 80%;
+    --destructive: 145 60% 35%;
+    --destructive-foreground: 120 100% 99%;
+    --border: 150 50% 22%;
+    --input: 150 50% 22%;
+    --ring: 145 60% 35%;
+    --chart-1: 145 60% 35%;
+    --chart-2: 150 100% 12%;
+    --chart-3: 140 50% 45%;
+    --chart-4: 155 45% 25%;
+    --chart-5: 135 55% 55%;
+    --sidebar-background: 150 100% 12%;
+    --sidebar-foreground: 132 50% 97%;
+    --sidebar-primary: 145 60% 35%;
+    --sidebar-primary-foreground: 120 100% 99%;
+    --sidebar-accent: 145 60% 35%;
+    --sidebar-accent-foreground: 150 100% 12%;
+    --sidebar-border: 150 50% 22%;
+    --sidebar-ring: 145 60% 35%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  /* Typography System - Based on Brand Identity Guide */
+
+  /* Hedvig Letters Serif - Titles and Headers (24pt base) */
+  .text-display-large {
+    font-family: var(--font-serif), Georgia, serif;
+    @apply font-normal text-5xl md:text-[64px] leading-[1.1] tracking-normal;
+  }
+
+  .text-display-medium {
+    font-family: var(--font-serif), Georgia, serif;
+    @apply font-normal text-3xl md:text-[40px] leading-[1.2] tracking-normal;
+  }
+
+  .text-display-small {
+    font-family: var(--font-serif), Georgia, serif;
+    @apply font-normal text-2xl md:text-[32px] leading-[1.25] tracking-normal;
+  }
+
+  /* Hedvig Letters Serif - Large Callouts */
+  .text-callout {
+    font-family: var(--font-serif), Georgia, serif;
+    @apply font-normal text-xl md:text-2xl leading-[1.3];
+  }
+
+  /* Instrument Sans - Sub-headers */
+  .typography-subheadline {
+    font-family: var(--font-sans), system-ui, sans-serif;
+    @apply font-normal text-base md:text-lg leading-[1.5];
+  }
+
+  /* Instrument Sans - Body Text */
+  .typography-body {
+    font-family: var(--font-sans), system-ui, sans-serif;
+    @apply font-normal text-[15px] md:text-base leading-[1.65];
+  }
+
+  /* Instrument Sans - Small Headers */
+  .typography-small-header {
+    font-family: var(--font-sans), system-ui, sans-serif;
+    @apply font-normal text-sm md:text-base leading-[1.5];
+  }
+
+  /* Instrument Sans - In-text Headers (Medium weight) */
+  .typography-header {
+    font-family: var(--font-sans), system-ui, sans-serif;
+    @apply font-medium text-base leading-[1.4];
+  }
+
+  /* Instrument Sans - Button Text (Semibold) */
+  .typography-button {
+    font-family: var(--font-sans), system-ui, sans-serif;
+    @apply font-semibold text-sm md:text-base leading-[1.2];
+  }
+
+  /* Legacy support */
+  .typography-title {
+    @apply text-display-medium;
+  }
+
+  .typography-callout {
+    @apply text-callout;
+  }
+
+  .typography-small {
+    font-family: var(--font-sans), system-ui, sans-serif;
+    @apply font-normal text-sm leading-[1.5];
+  }
+}
+
+@layer utilities {
+  @keyframes slide-in {
+    from {
+      opacity: 0;
+      transform: translate(10px, -50%);
+    }
+    to {
+      opacity: 1;
+      transform: translate(20px, -50%);
+    }
+  }
+
+  .animate-slide-in {
+    animation: slide-in 0.3s ease-out forwards;
+  }
+}
