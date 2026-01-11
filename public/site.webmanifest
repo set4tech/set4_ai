@@ -1,0 +1,22 @@
+{
+  "name": "Set4 AI",
+  "short_name": "Set4",
+  "description": "AI-powered floorplan analysis for architects, developers, and building departments",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4400cc",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

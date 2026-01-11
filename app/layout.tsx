@@ -16,11 +16,40 @@ const hedvigLettersSerif = Hedvig_Letters_Serif({
 })
 
 export const metadata: Metadata = {
-  title: 'Read the drawings',
-  description: 'set4 helps your permit better and faster.',
-  icons: {
-    icon: '/favicon.svg',
+  metadataBase: new URL('https://set4.ai'),
+  title: 'Set4 AI - Read your floorplans. With AI.',
+  description: 'AI-powered floorplan analysis for architects, developers, and building departments. Extract, measure, and analyze architectural drawings automatically.',
+  keywords: ['AI floorplan analysis', 'architectural drawing analysis', 'building code compliance', 'plan review automation', 'construction AI'],
+  authors: [{ name: 'Set4 AI' }],
+  creator: 'Set4 AI',
+  publisher: 'Set4 AI',
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://set4.ai',
+    siteName: 'Set4 AI',
+    title: 'Set4 AI - Read your floorplans. With AI.',
+    description: 'AI-powered floorplan analysis for architects, developers, and building departments. Extract, measure, and analyze architectural drawings automatically.',
+    images: [
+      {
+        url: '/icon.png',
+        width: 512,
+        height: 512,
+        alt: 'Set4 AI Logo',
+      },
+    ],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Set4 AI - Read your floorplans. With AI.',
+    description: 'AI-powered floorplan analysis for architects, developers, and building departments.',
+    images: ['/icon.png'],
+  },
+  icons: {
+    icon: '/favicon.png',
+    apple: '/icon.png',
+  },
+  manifest: '/site.webmanifest',
 }
 
 export default function RootLayout({
