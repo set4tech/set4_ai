@@ -1,0 +1,170 @@
+{
+  "lastCompiled": "2026-02-14",
+  "notes": "Fee data sourced from official city/county fee schedules. Benchmark calculations use standard Florida building valuation methodology. All fees are approximate and subject to additional surcharges.",
+  "benchmarkProjects": {
+    "residential100k": { "label": "$100K Residential Renovation", "value": 100000 },
+    "residential250k": { "label": "$250K New Single-Family Home", "value": 250000 },
+    "residential500k": { "label": "$500K New Single-Family Home", "value": 500000 },
+    "commercial1m": { "label": "$1M Commercial Project", "value": 1000000 }
+  },
+  "cities": [
+    {
+      "id": "destin",
+      "name": "City of Destin",
+      "state": "FL",
+      "county": "Okaloosa",
+      "feeStructureType": "Valuation-based",
+      "lastUpdated": "2025-05-05",
+      "source": "Resolution 25-10",
+      "sourceUrl": "https://www.cityofdestin.com/228/Fee-Schedule",
+      "technologyPlatform": "MGO (MyGovernmentOnline)",
+      "planReviewPct": 65,
+      "reInspectionFee": 75,
+      "certificateOfOccupancy": 0,
+      "buildingPermitTiers": [
+        { "minValue": 1, "maxValue": 500, "baseFee": 28, "perAdditional": 0 },
+        { "minValue": 501, "maxValue": 50000, "baseFee": 42, "perThousand": 7.50 },
+        { "minValue": 50001, "maxValue": 100000, "baseFee": 417, "perThousand": 5.50 },
+        { "minValue": 100001, "maxValue": 500000, "baseFee": 692, "perThousand": 4.25 },
+        { "minValue": 500001, "maxValue": null, "baseFee": 2392, "perThousand": 3.00 }
+      ],
+      "benchmarkFees": {
+        "residential100k": { "buildingPermit": 692, "planReview": 450, "total": 1142 },
+        "residential250k": { "buildingPermit": 1330, "planReview": 864, "total": 2194 },
+        "residential500k": { "buildingPermit": 2392, "planReview": 1555, "total": 3947 },
+        "commercial1m": { "buildingPermit": 3892, "planReview": 2530, "total": 6422 }
+      }
+    },
+    {
+      "id": "fort-walton-beach",
+      "name": "Fort Walton Beach",
+      "state": "FL",
+      "county": "Okaloosa",
+      "feeStructureType": "Valuation-based",
+      "lastUpdated": "2025-11-18",
+      "source": "Comprehensive Fee Schedule FY 2025-26",
+      "sourceUrl": "https://www.fwb.org/174/Fees",
+      "technologyPlatform": "MGO (MyGovernmentOnline)",
+      "planReviewPct": 50,
+      "reInspectionFee": 38,
+      "certificateOfOccupancy": 38,
+      "processingFee": 22.50,
+      "buildingPermitTiers": [
+        { "minValue": 501, "maxValue": 50000, "baseFee": 39, "perThousand": 6.60 },
+        { "minValue": 50001, "maxValue": 100000, "baseFee": 360.55, "perThousand": 5.25 },
+        { "minValue": 100001, "maxValue": 500000, "baseFee": 623, "perThousand": 4.00 },
+        { "minValue": 500001, "maxValue": null, "baseFee": 2219, "perThousand": 2.75 }
+      ],
+      "benchmarkFees": {
+        "residential100k": { "buildingPermit": 623, "planReview": 312, "processing": 23, "total": 957 },
+        "residential250k": { "buildingPermit": 1223, "planReview": 612, "processing": 23, "total": 1857 },
+        "residential500k": { "buildingPermit": 2219, "planReview": 1110, "processing": 23, "total": 3351 },
+        "commercial1m": { "buildingPermit": 3594, "planReview": 1797, "processing": 23, "total": 5414 }
+      }
+    },
+    {
+      "id": "panama-city-beach",
+      "name": "Panama City Beach",
+      "state": "FL",
+      "county": "Bay",
+      "feeStructureType": "Valuation-based",
+      "lastUpdated": "2024-10-01",
+      "source": "City Fee Schedule FY 2024-25",
+      "sourceUrl": "https://www.pcbfl.gov",
+      "technologyPlatform": "EnerGov",
+      "planReviewPct": 50,
+      "reInspectionFee": 50,
+      "certificateOfOccupancy": 25,
+      "buildingPermitTiers": [
+        { "minValue": 1, "maxValue": 50000, "baseFee": 45, "perThousand": 7.00 },
+        { "minValue": 50001, "maxValue": 100000, "baseFee": 395, "perThousand": 5.50 },
+        { "minValue": 100001, "maxValue": 500000, "baseFee": 670, "perThousand": 4.50 },
+        { "minValue": 500001, "maxValue": null, "baseFee": 2470, "perThousand": 3.25 }
+      ],
+      "benchmarkFees": {
+        "residential100k": { "buildingPermit": 670, "planReview": 335, "total": 1005 },
+        "residential250k": { "buildingPermit": 1345, "planReview": 673, "total": 2018 },
+        "residential500k": { "buildingPermit": 2470, "planReview": 1235, "total": 3705 },
+        "commercial1m": { "buildingPermit": 4095, "planReview": 2048, "total": 6143 }
+      }
+    },
+    {
+      "id": "santa-rosa-beach",
+      "name": "Walton County (30A)",
+      "state": "FL",
+      "county": "Walton",
+      "feeStructureType": "Valuation-based",
+      "lastUpdated": "2024-09-01",
+      "source": "Ordinance 2024-32",
+      "sourceUrl": "https://www.mywaltonfl.gov/77/Permits",
+      "technologyPlatform": "Citizenserve",
+      "planReviewPct": 50,
+      "reInspectionFee": 50,
+      "certificateOfOccupancy": 0,
+      "buildingPermitTiers": [
+        { "minValue": 1, "maxValue": 50000, "baseFee": 50, "perThousand": 6.00 },
+        { "minValue": 50001, "maxValue": 100000, "baseFee": 350, "perThousand": 5.00 },
+        { "minValue": 100001, "maxValue": 500000, "baseFee": 600, "perThousand": 4.00 },
+        { "minValue": 500001, "maxValue": null, "baseFee": 2200, "perThousand": 2.50 }
+      ],
+      "benchmarkFees": {
+        "residential100k": { "buildingPermit": 600, "planReview": 300, "total": 900 },
+        "residential250k": { "buildingPermit": 1200, "planReview": 600, "total": 1800 },
+        "residential500k": { "buildingPermit": 2200, "planReview": 1100, "total": 3300 },
+        "commercial1m": { "buildingPermit": 3450, "planReview": 1725, "total": 5175 }
+      }
+    },
+    {
+      "id": "marco-island",
+      "name": "Marco Island",
+      "state": "FL",
+      "county": "Collier",
+      "feeStructureType": "Hybrid (valuation + sq ft)",
+      "lastUpdated": "2024-10-01",
+      "source": "City Fee Resolution",
+      "sourceUrl": "https://www.cityofmarcoisland.com",
+      "technologyPlatform": "CityView",
+      "planReviewPct": 50,
+      "reInspectionFee": 75,
+      "certificateOfOccupancy": 50,
+      "buildingPermitTiers": [
+        { "minValue": 1, "maxValue": 50000, "baseFee": 50, "perThousand": 8.00 },
+        { "minValue": 50001, "maxValue": 100000, "baseFee": 450, "perThousand": 6.00 },
+        { "minValue": 100001, "maxValue": 500000, "baseFee": 750, "perThousand": 4.75 },
+        { "minValue": 500001, "maxValue": null, "baseFee": 2650, "perThousand": 3.50 }
+      ],
+      "benchmarkFees": {
+        "residential100k": { "buildingPermit": 750, "planReview": 375, "total": 1125 },
+        "residential250k": { "buildingPermit": 1463, "planReview": 731, "total": 2194 },
+        "residential500k": { "buildingPermit": 2650, "planReview": 1325, "total": 3975 },
+        "commercial1m": { "buildingPermit": 4400, "planReview": 2200, "total": 6600 }
+      }
+    },
+    {
+      "id": "fernandina-beach",
+      "name": "Fernandina Beach",
+      "state": "FL",
+      "county": "Nassau",
+      "feeStructureType": "All-inclusive per $1K",
+      "lastUpdated": "2024-10-01",
+      "source": "Fee Schedule FY 2024-2025",
+      "sourceUrl": "https://www.fbfl.us/993/Fee-Schedule",
+      "technologyPlatform": "Online Portal (fbfl.us)",
+      "planReviewPct": 0,
+      "planReviewNote": "Included in all-inclusive building permit fee",
+      "reInspectionFee": 50,
+      "certificateOfOccupancy": 0,
+      "buildingPermitTiers": [
+        { "minValue": 1, "maxValue": 5000000, "baseFee": 0, "perThousand": 7.50, "note": "All-inclusive: covers building, roofing, plumbing, mechanical, electrical" },
+        { "minValue": 5000001, "maxValue": 10000000, "baseFee": 37500, "perThousand": 3.50 },
+        { "minValue": 10000001, "maxValue": null, "baseFee": 55000, "perThousand": 2.00 }
+      ],
+      "benchmarkFees": {
+        "residential100k": { "buildingPermit": 750, "planReview": 0, "total": 750 },
+        "residential250k": { "buildingPermit": 1875, "planReview": 0, "total": 1875 },
+        "residential500k": { "buildingPermit": 3750, "planReview": 0, "total": 3750 },
+        "commercial1m": { "buildingPermit": 7500, "planReview": 0, "total": 7500 }
+      }
+    }
+  ]
+}

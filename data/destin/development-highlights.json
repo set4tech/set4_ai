@@ -1,0 +1,235 @@
+[
+  {
+    "cityName": "Destin, FL",
+    "highlights": [
+      {
+        "title": "Hyatt House Destin",
+        "type": "resort",
+        "description": "New six-story, 95,500 sq ft hotel with 146 guestrooms at 4415 Legendary Drive, adjacent to The Gulf near downtown Destin. Construction began July 2024.",
+        "year": 2024,
+        "estimatedValue": "$92M (resort development financing)"
+      },
+      {
+        "title": "Norriego Point State Park Land Acquisition",
+        "type": "infrastructure",
+        "description": "Florida Cabinet approved $84M purchase of approximately 4 acres of Destin waterfront property formerly zoned for luxury condos, converting it to public parkland. Expands park area to nearly 16 acres connecting to Gulf Shore Drive. State closed on land December 11, 2025.",
+        "year": 2025,
+        "estimatedValue": "$84M"
+      },
+      {
+        "title": "Hilton Sandestin Beach Golf Resort & Spa Renovation",
+        "type": "resort",
+        "description": "Major $35M refresh including complete redesign of guest rooms, restaurants, and public spaces. Phase one completed March 2023, transforming 305 of 590 guest suites.",
+        "year": 2023,
+        "estimatedValue": "$35M"
+      },
+      {
+        "title": "Odom Hotelz Multi-Hotel Development",
+        "type": "resort",
+        "description": "Six new hotels planned across Okaloosa, Walton, and Bay counties in partnership with IHG, Hilton, and Marriott brands. Destin area included as a primary market. Hotels began opening in 2024.",
+        "year": 2023,
+        "estimatedValue": "Not disclosed"
+      },
+      {
+        "title": "Club Wyndham Emerald Grande Expansion",
+        "type": "resort",
+        "description": "Resort expansion project at the Emerald Grande timeshare and resort property on Destin Harbor. Construction slated to begin October 2025 and continue through 2026.",
+        "year": 2025,
+        "estimatedValue": "Not disclosed"
+      }
+    ]
+  },
+  {
+    "cityName": "Fort Walton Beach, FL",
+    "highlights": [
+      {
+        "title": "Fort Walton Beach Landing Park Renovation",
+        "type": "infrastructure",
+        "description": "$8M waterfront renovation at 139 Brooks Street SE featuring a reinforced 700-foot seawall with 10-foot-wide concrete boardwalk, new T-dock, renovated multi-slip dock, pocket beach, kayak launch, and terraced seating. Phase one completed spring 2025. Full completion expected fall 2025.",
+        "year": 2023,
+        "estimatedValue": "$8M"
+      },
+      {
+        "title": "Freedom Tech Center (Freedom Beacon Tech Park)",
+        "type": "mixed-use",
+        "description": "50-acre mixed-use development by The Jay Odom Group on 52 acres at 1900 Lewis Turner Blvd. Includes Home2 Suites by Hilton (126 rooms, opened 2024), Holiday Inn Express, luxury apartments, restaurants, Class A office space, and a 4-acre recreational park. Features 200-foot flagpole with massive American flag.",
+        "year": 2024,
+        "estimatedValue": "$250M"
+      },
+      {
+        "title": "Brooks Street Downtown Improvements",
+        "type": "infrastructure",
+        "description": "CRA-funded downtown improvements including 44-space public parking lot, new dumpster enclosures replacing individual garbage cans, and transformation of underutilized area into functional outdoor courtyard abutting local businesses.",
+        "year": 2024,
+        "estimatedValue": "Not disclosed"
+      },
+      {
+        "title": "Best Western Okaloosa Island Hotel Renovation",
+        "type": "resort",
+        "description": "OTO Development acquired the Best Western Fort Walton Beach on Okaloosa Island with plans for a major renovation of the waterfront hotel property.",
+        "year": 2024,
+        "estimatedValue": "Not disclosed"
+      }
+    ]
+  },
+  {
+    "cityName": "Panama City Beach, FL",
+    "highlights": [
+      {
+        "title": "Pier Park City Center",
+        "type": "mixed-use",
+        "description": "Major mixed-use development by The St. Joe Company that broke ground in 2024. Anchored by Topgolf (opened June 27, 2025) as a commercial hub designed to attract new businesses and investment. Located adjacent to the existing Pier Park retail complex.",
+        "year": 2024,
+        "estimatedValue": "Not disclosed"
+      },
+      {
+        "title": "Topgolf Panama City Beach",
+        "type": "commercial",
+        "description": "Two-level, 74-bay outdoor golf and entertainment venue with full-service restaurant and bar. Tenth Topgolf location in Florida. First tenant to open at Pier Park City Center. Expected to create 300 jobs and generate approximately $750,000 in annual tax revenue. Opened June 27, 2025.",
+        "year": 2025,
+        "estimatedValue": "Not disclosed"
+      },
+      {
+        "title": "Dolly Parton's Pirates Voyage Dinner & Show",
+        "type": "commercial",
+        "description": "60,000 sq ft family entertainment venue featuring four-course feast dining with live pirate battles aboard full-size ships in a 15-foot-deep indoor lagoon. Scheduled to open spring 2025.",
+        "year": 2025,
+        "estimatedValue": "Not disclosed"
+      },
+      {
+        "title": "St. Joe Mixed-Use Community",
+        "type": "mixed-use",
+        "description": "Large planned community with 700+ homesites, 440 multi-family units, 160,000 sq ft of retail space, 75,000 sq ft of office space, and 750 hotel rooms. Developed by The St. Joe Company.",
+        "year": 2024,
+        "estimatedValue": "Not disclosed"
+      },
+      {
+        "title": "Tootsies Orchid Lounge Beachfront Relocation",
+        "type": "commercial",
+        "description": "Nashville-famous honky-tonk Tootsies Orchid Lounge relocating to the former Spinnaker Beach Club property on Thomas Drive, with plans to remodel into an expanded beachfront venue with nightly live entertainment.",
+        "year": 2024,
+        "estimatedValue": "Not disclosed"
+      }
+    ]
+  },
+  {
+    "cityName": "Walton County / Santa Rosa Beach / 30A Area, FL",
+    "highlights": [
+      {
+        "title": "30 West Conceptual PUD",
+        "type": "mixed-use",
+        "description": "87.7-acre mixed-use village center by The Howard Group at the gateway to west end of CR-30A on north side of US 98. Includes 717 multi-family units, 309,655 sq ft of grocery/retail/office/lodging, parks, plazas, festival green, promenade, and extension of Dune Lakes Boulevard as a traffic bypass. Approved by planning commission October 2024.",
+        "year": 2024,
+        "estimatedValue": "Not disclosed"
+      },
+      {
+        "title": "Walton County Beach Access and Parking Infrastructure",
+        "type": "infrastructure",
+        "description": "Multiple beach access projects: Seagrove Regional Beach Access (started March 2024), Headland Street Neighborhood Beach Access (started July 2024), Driftwood Road Municipal Parking with 82 spaces (started June 2025), and 393 Municipal Parking Facility with 74 spaces and transit building (started June 2025).",
+        "year": 2024,
+        "estimatedValue": "Not disclosed"
+      },
+      {
+        "title": "Western Lake Bridge Replacement",
+        "type": "infrastructure",
+        "description": "Replacement of the Western Lake Bridge along Scenic Highway 30A, with completion slated for summer 2025. Part of broader road and bridge infrastructure improvements in the area.",
+        "year": 2025,
+        "estimatedValue": "Not disclosed"
+      },
+      {
+        "title": "Kellogg Park Nature Center",
+        "type": "infrastructure",
+        "description": "1,800 sq ft assembly-style building for nature watching and community gatherings at 855 Nursery Rd in Santa Rosa Beach. Construction began June 2025, expected completion early summer 2026.",
+        "year": 2025,
+        "estimatedValue": "Not disclosed"
+      },
+      {
+        "title": "The Beacon at 331 Apartments",
+        "type": "residential",
+        "description": "New apartment community built in 2024 at 25 Choctawhatchee Way, Santa Rosa Beach, along the Highway 331 corridor serving the growing workforce housing demand in the 30A/South Walton area.",
+        "year": 2024,
+        "estimatedValue": "Not disclosed"
+      }
+    ]
+  },
+  {
+    "cityName": "Marco Island, FL",
+    "highlights": [
+      {
+        "title": "Advanced Metering Infrastructure (AMI) Water Meter Upgrade",
+        "type": "infrastructure",
+        "description": "Citywide replacement of 11,500 water meters by Johnson Controls to boost accuracy and revenues. Phased installations began 2024 with completion expected early 2026. A 16% decline in meter precision had caused revenue losses. Expected to boost water revenues by approximately $1.5M annually.",
+        "year": 2024,
+        "estimatedValue": "$11.58M"
+      },
+      {
+        "title": "Advanced Wastewater Treatment Plant Study",
+        "type": "infrastructure",
+        "description": "City Council directed staff to engage engineers to estimate cost of upgrading the wastewater treatment plant to Advanced Wastewater Treatment (AWT) standards to address canal water quality concerns. Preliminary estimates around $20M pending formal consultant cost analysis.",
+        "year": 2025,
+        "estimatedValue": "$20M (estimated)"
+      },
+      {
+        "title": "Veterans Community Park Home Depot Foundation Refurbishment",
+        "type": "infrastructure",
+        "description": "In October 2025, over 700 volunteers from The Home Depot and vendor partners completed a one-day refurbishment of Veterans Community Park and Winterberry Park as part of a $500,000 charitable initiative.",
+        "year": 2025,
+        "estimatedValue": "$500K"
+      },
+      {
+        "title": "Parks and Recreation Master Plan",
+        "type": "infrastructure",
+        "description": "First-ever Master Plan for the Parks and Recreation Department by Perez Planning and Design. Public input being gathered to address future capital and programming needs for all city parks.",
+        "year": 2024,
+        "estimatedValue": "Not disclosed"
+      },
+      {
+        "title": "Custom Luxury Home Construction Boom",
+        "type": "residential",
+        "description": "Active wave of luxury custom home construction by builders including FCI Homes, Aqua Custom Homes, Divco, and Frey & Son Homes. Nearly 5,000 new housing units approved or in planning along the 19-mile corridor between I-75 and Marco Island. Individual homes range from $465,900 to over $5.6M.",
+        "year": 2024,
+        "estimatedValue": "Varies ($465K-$5.7M per home)"
+      }
+    ]
+  },
+  {
+    "cityName": "Fernandina Beach, FL",
+    "highlights": [
+      {
+        "title": "Nassau County Shore Protection Project",
+        "type": "infrastructure",
+        "description": "$20M beach renourishment project along the Fernandina Beach shoreline from Fort Clinch to Saddler Road. Finished months ahead of its November 2025 estimated completion date.",
+        "year": 2025,
+        "estimatedValue": "$20M"
+      },
+      {
+        "title": "Amelia Waterfront Park",
+        "type": "infrastructure",
+        "description": "New $2M waterfront park on Marina Lots C & D on South Front Street, approved by City Commission in July 2024. Features green space, pavilion, restrooms, and improved parking. Funded by impact fees. Project expanded northward after early termination of Atlantic Seafood lease. Construction ongoing.",
+        "year": 2024,
+        "estimatedValue": "$2M+"
+      },
+      {
+        "title": "Downtown Revitalization and Infrastructure Improvements",
+        "type": "infrastructure",
+        "description": "Comprehensive improvements to 40-50 year old downtown infrastructure including sidewalk replacement, new landscaping, and updated lighting throughout the historic district.",
+        "year": 2024,
+        "estimatedValue": "Not disclosed"
+      },
+      {
+        "title": "Crane Island Residential Community",
+        "type": "residential",
+        "description": "Exclusive 113-home community annexed into Fernandina Beach, preserving 56% of natural landscape. Amenities include the River House with infinity pool, firepits, workout facility, gathering room, and 39 deep-water boat lifts. Active sales ongoing with waterfront lots and completed homes.",
+        "year": 2024,
+        "estimatedValue": "Not disclosed"
+      },
+      {
+        "title": "Historic Downtown Resiliency Seawall Project",
+        "type": "infrastructure",
+        "description": "Seawall construction to address chronic flooding in the historic district caused by the Amelia River. City seeking $4M in state funding to continue phased construction.",
+        "year": 2025,
+        "estimatedValue": "$4M (state funding request)"
+      }
+    ]
+  }
+]
